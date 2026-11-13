@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Tests</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="/assets/qunit.css" />
+</head>
+
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <div id="ember-testing-container">
+    <div id="ember-testing"></div>
+  </div>
+  <div id="ember-basic-dropdown-wormhole"></div>
+
+  <script type="module">
+    import { start } from './test-helper.ts';
+
+    // Import test modules
+    import '../src/components/combobox/__tests__/basic-dropdown-integration-test.gts';
+
+    start();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+{
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"editor.renderWhitespace": "all",
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit",
+		"source.organizeImports": "explicit"
+	},
+	"editor.insertSpaces": true,
+	"editor.suggest.preview": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.defaultLocation": "editor",
+	"terminal.integrated.gpuAcceleration": "on",
+	"terminal.integrated.customGlyphs": true,
+	"editor.rulers": [80],
+	"files.eol": "\n",
+	"rust-analyzer.linkedProjects": ["./Cargo.toml"],
+	"git.ignoreLimitWarning": true,
+	"[rust]": {
+		"editor.semanticHighlighting.enabled": true
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[glimmer-ts]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[glimmer-js]": {
+		"editor.defaultFormatter": "prettier.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

@@ -1,0 +1,8 @@
+# compiled output
+dist/
+dist-tests/
+declarations/
+
+# misc
+node_modules/
+pnpm-lock.yaml
